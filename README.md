@@ -14,3 +14,6 @@ npm run serve
 
 # Estrutura
 O projeto consiste em 2 partes principais: O layout do aplicativo e os recursos. App.vue dentro da pasta src é o componente principal que contém o modelo para o layout base, enquanto os recursos necessários, como a estrutura SASS para o layout, são colocados dentro da pasta src/assets/
+
+# Gerar projeto
+npm run build
