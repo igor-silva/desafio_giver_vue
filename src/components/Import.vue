@@ -3,7 +3,7 @@
 		<div class="col-12">
 			<div class="card">
 				<h5>Importar dados</h5>
-				<FileUpload name="file" url="http://localhost/customer/insert" @upload="onUpload" :multiple="false" accept=".csv"/>
+				<FileUpload name="file" url="http://appigor.epizy.com/customer/insert" @upload="onUpload" :multiple="false" accept=".csv"/>
 			</div>
 		</div>
 	</div>
