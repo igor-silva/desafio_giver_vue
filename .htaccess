@@ -1,0 +1,4 @@
+﻿Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} appigor.epizy.com/appvue [NC]
+RewriteRule ^(.*)$ appvue/$1[L,NC,QSA]
