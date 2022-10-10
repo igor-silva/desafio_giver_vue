@@ -2,7 +2,7 @@ export default class CustomerService {
 
     async getCustomersAll() {
 
-        const response = await fetch("http://appigor.epizy.com/customer/api/1/1/999999999");
+        const response = await fetch("http://appigor.epizy.com/customer/api/1/1/322");
         const data = await response.json();
         this.data = data;        
 
